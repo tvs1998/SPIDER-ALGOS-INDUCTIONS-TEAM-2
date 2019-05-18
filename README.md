@@ -13,30 +13,3 @@ Have fun and happy coding !!!
 
 hi!i am mudunuri sri krishna
 this is my code in c-programming for modular exponentiation
-
-#include<stdio.h>
-int main()
-{
-	int a,b,c,d,e;
-	printf("enter base power mod");
-	scanf("%d %d %d",&a,&b,&c);
-	e=1;
-	d=a;
-	while(b>0)
-	{
-	   	if(b%2!=0)
-	   	{   
-            e=mod(d,c)*e;
-     	}
-		d=mod(d,c)*mod(d,c);
-		d=mod(d,c);
-		b=b/2;
-	}
-	e=mod(e,c);
-	printf("final value is %d",e);
-}
-int mod(int d,int c)
-{   
-	d=d%c;
-	return d;
-}
