@@ -2,12 +2,12 @@
 void main()
 {
 	int x,y,z;
-printf("enter the values");
+printf("enter the positive values");
 scanf("%d %d %d",&x,&y,&z); 
-printf("The result is %d", power(x, y, z)); 
+printf("The result is %d",fn(x, y, z)); 
 }
 
-int power(int x, int y, int p) 
+int fn(int x, int y, int p) 
 { 
     int res = 1;   
   
