@@ -6,7 +6,7 @@ int power(int x, unsigned int y, int p){
 	while (y > 0){ // If y is odd, multiply x with result 
     	  if (y%2==1) 
              res = (res*x) % p; 
-    	// y must be even now 
+    	// y must be even 
     	   y = y/2; // y = y/2 
     	x = (x*x) % p;   
 	} 
