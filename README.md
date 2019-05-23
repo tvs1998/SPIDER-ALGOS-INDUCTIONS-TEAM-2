@@ -9,4 +9,4 @@ The algorithm to be implemented is Modular Exponentiation. Read about it, if you
 
 Pull requests will be verified and accepted by Shashvat or me.
 
-Have fun and happy coding !!!
+Have fun and happy coding!!
