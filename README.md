@@ -16,8 +16,28 @@ Have fun and happy coding!!
 heapsort.c
 
 1)taking array size and array elements as input
+
 2)heapifying array from bottom of heap by comparing left and right  childs of elements by using heapify function
+
 3)after heapifying keeping top element of heap into another array and replacing least element of heap to top position of heap.
+
 4)last element of heap will be palced with some large negitive junk number so,that further it cannot distrub next step of heapifying.
+
 5)printing another array in which all heap elements placed.
+
+6)to sort co-ordinates(giving first preference to x co ordinate and next preference to y co ordinate)give input as x.y(float)so,automatically while sorting x will be given first preference if x is same then we will check y(decimal) value to sort.
+
+
+quicksort.c
+
+1)taking array size  and array elements as inputs
+
+2)quicksort(): taking first element as pivot and by using i,j swapping larger numbers on left side of pivot with smaller numbers on rightside.
+
+3)swapping pivot to its apropriate position from first position. so that all numbers on leftside of pivot will be smaller than it and all rightside elements of pivot willbe greater than it
+
+4)again repeat same process for left elements of pivot and right elements of pivot.
+
+5)print the final array
+
 6)to sort co-ordinates(giving first preference to x co ordinate and next preference to y co ordinate)give input as x.y(float)so,automatically while sorting x will be given first preference if x is same then we will check y(decimal) value to sort.
