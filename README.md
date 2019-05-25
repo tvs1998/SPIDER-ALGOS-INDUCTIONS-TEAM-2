@@ -41,3 +41,10 @@ quicksort.c
 5)print the final array
 
 6)to sort co-ordinates(giving first preference to x co ordinate and next preference to y co ordinate)give input as x.y(float)so,automatically while sorting x will be given first preference if x is same then we will check y(decimal) value to sort.
+
+
+randomised quicksort.c
+
+1)same as of quickort.c
+
+2)randomise the array using rand()function.
