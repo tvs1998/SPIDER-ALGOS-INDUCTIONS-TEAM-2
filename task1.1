@@ -1,0 +1,56 @@
+#include<stdio.h>
+int main()
+{    int size,i=0,j=0;
+     char a[105];
+     scanf("%d",&size);
+     scanf("%s",a);
+     while(i<size)
+     {  
+     	if(a[i]=='1')
+     	{
+     	   j++;
+        }
+		  i++;
+     }
+	 if(j==size||j==1)
+	 printf("1");
+	 else
+	 {
+	 	binarysub(a,size);
+	 	printf("%s\t",a);
+	 	binaryadd(a,size);
+		binaryadd(a,size);
+		printf("%s",a);
+	 }
+}
+binaryadd(char a[],int x)
+{   
+    int i;
+    i=x-1;
+	if(a[i]=='0')
+	{
+		a[i]='1';
+	}
+	else
+	{
+		a[i]='0';
+		x--;
+		binaryadd(a,x);
+	}
+}
+binarysub(char a[],int x)
+{
+	int i;
+	i=x-1;
+	if(a[i]=='1')
+	{
+		a[i]='0';
+	}
+	else
+	{
+		a[i]='1';
+		x--;
+		binarysub(a,x);
+	}
+	
+}
